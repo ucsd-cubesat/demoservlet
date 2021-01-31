@@ -27,21 +27,11 @@
       <artifactId>aws-java-sdk-dynamodb</artifactId>
     </dependency>
     
-
-<!-- taglibs-standard-spec-*.jar -->
-<!-- http://mvnrepository.com/artifact/org.apache.taglibs/taglibs-standard-spec -->
-<dependency>
-    <groupId>org.apache.taglibs</groupId>
-    <artifactId>taglibs-standard-spec</artifactId>
-    <version>1.2.5</version>
-</dependency>
-<!-- taglibs-standard-impl-*.jar -->
-<!-- http://mvnrepository.com/artifact/org.apache.taglibs/taglibs-standard-impl -->
-<dependency>
-    <groupId>org.apache.taglibs</groupId>
-    <artifactId>taglibs-standard-impl</artifactId>
-    <version>1.2.5</version>
-</dependency>
+	<dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
