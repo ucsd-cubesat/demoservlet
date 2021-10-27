@@ -11,9 +11,9 @@ macOS are advised to use the [Homebrew](https://brew.sh) package manager, which 
 Linux users will need to find the preferred method for installing the mentioned packages, but in general your package manager will follow the same command structure as the commands for macOS.
 
 ### AWS-specific Java requirements
-AWS will host our package using the Java 11 standard, so we will explicitly install it and target Java 11 during project development. We will use [AdoptOpenJDK](https://adoptopenjdk.net) instead of the included Java distribution on macOS.
+AWS will host our package using the Java 11 standard, so we will explicitly install it and target Java 11 during project development. I recommend [Termurin (formally AdoptOpenJDK)](https://adoptium.net/) instead of the included Java distribution on macOS or other closed sourced distributions.
 
-- Brew users can access the AdoptOpenJDK repository using `brew tap AdoptOpenJDK/openjdk`, then install it with `brew install --cask adoptopenjdk11`
+- Brew users can access the AdoptOpenJDK repository using `brew tap homebrew/cask-versions`, then install it with `brew install temurin11`
 
 ### Tomcat
 Tomcat is a server software developed by Apache. It will run our project locally, as opposed to on the cloud. This guide uses [Tomcat 8 Core](https://tomcat.apache.org/download-80.cgi)
