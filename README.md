@@ -13,7 +13,7 @@ Linux users will need to find the preferred method for installing the mentioned 
 ### AWS-specific Java requirements
 AWS will host our package using the Java 11 standard, so we will explicitly install it and target Java 11 during project development. I recommend [Termurin (formally AdoptOpenJDK)](https://adoptium.net/) instead of the included Java distribution on macOS or other closed sourced distributions.
 
-- Brew users can access the AdoptOpenJDK repository using `brew tap homebrew/cask-versions`, then install it with `brew install temurin11`
+- Brew users can access Temurin repository using `brew tap homebrew/cask-versions`, then install it with `brew install temurin11`
 
 ### Tomcat
 Tomcat is a server software developed by Apache. It will run our project locally, as opposed to on the cloud. This guide uses [Tomcat 8 Core](https://tomcat.apache.org/download-80.cgi)
